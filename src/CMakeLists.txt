@@ -1,7 +1,7 @@
-find_package(Eigen3 REQUIRED)
+find_package(Eigen REQUIRED)
 
 include_directories(SYSTEM ${catkin_INCLUDE_DIRS}
-                           ${EIGEN3_INCLUDE_DIRS}
+                           ${Eigen_INCLUDE_DIRS}
                            ${PCL_INCLUDE_DIRS}
 )
 
