@@ -9,7 +9,6 @@
 #include <pcl/surface/reconstruction.h>
 #include <ecto_pcl/ecto_pcl.hpp>
 #include <sensor_msgs/PointField.h>
-
 #include <boost/format.hpp>
 
 using ecto::tendrils;
